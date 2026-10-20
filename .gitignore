@@ -1,1 +1,15 @@
 /.metadata/
+*.class
+
+# Java build output
+bin/
+target/
+
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# IDE settings
+.idea/
