@@ -9,6 +9,7 @@ public class Infix_to_Prefix {
 
         String prefix = Convert_String.convert(infix);
         System.out.println("Prefix String = " + prefix);
+        sc.close();
     }
 }
 

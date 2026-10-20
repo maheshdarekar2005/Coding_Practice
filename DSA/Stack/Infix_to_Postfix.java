@@ -9,6 +9,7 @@ public class Infix_to_Postfix {
 
         String postfix = Convert_String.convert(infix);
         System.out.println("Postfix operation is = " + postfix);
+        sc.close();
     }   
 }
 class Convert_String{
