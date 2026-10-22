@@ -125,7 +125,7 @@ public class Doubly_Circular_Linked_List {
             System.out.println("4. Delete Right");
             System.out.println("5. Display List");
             System.out.println("6. Display Reverse List");
-            System.out.println("0. Exit");
+            System.out.println("7. Exit");
 
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();
@@ -167,7 +167,7 @@ public class Doubly_Circular_Linked_List {
                     break;
 
 
-                case 0:
+                case 7:
                     System.out.println("Exiting program...");
                     break;
 
@@ -175,7 +175,7 @@ public class Doubly_Circular_Linked_List {
                     System.out.println("Invalid choice!");
             }
 
-        } while (choice!=0);
+        } while (choice!=7);
 
         sc.close();
     }
